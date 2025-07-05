@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Corporation</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    nav {
+      background-color: #0059b3;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    nav ul li {
+      position: relative;
+    }
+    nav ul li a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background-color: #0073e6;
+    }
+    nav ul li ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #0059b3;
+      display: none;
+      min-width: 160px;
+      z-index: 1;
+    }
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li ul li a {
+      padding: 12px 16px;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    main h2 {
+      margin-bottom: 16px;
+      color: #004080;
+    }
+    main p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Acme Corporation
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Tentang Kami</a></li>
+      <li><a href="#">Produk & Layanan</a></li>
+      <li><a href="#">Hubungan Investor</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Karir</a></li>
+      <li>
+        <a href="#">Lainnya</a>
+        <ul>
+          <li><a href="#">Laporan Tahunan</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Selamat Datang di Acme Corporation</h2>
+    <p>Acme Corporation adalah pemimpin global dalam solusi inovatif dan teknologi canggih. Kami berkomitmen untuk menyediakan layanan terbaik bagi klien kami di seluruh dunia.</p>
+
+    <h2>Visi dan Misi</h2>
+    <p>Visi kami adalah menjadi perusahaan teknologi paling terpercaya dan berpengaruh di dunia. Kami berupaya mencapai hal ini melalui inovasi berkelanjutan, keunggulan operasional, dan fokus pada kepuasan pelanggan.</p>
+
+    <h2>Berita Terkini</h2>
+    <p>Acme Corporation baru saja meluncurkan produk terbaru kami, Acme X, yang menghadirkan terobosan dalam efisiensi energi dan kinerja perangkat. Peluncuran ini memperkuat posisi kami di pasar global.</p>
+  </main>
+</body>
+</html>
